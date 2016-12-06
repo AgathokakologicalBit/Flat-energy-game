@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.samsungschool.programs.flatgame.scenes.SplashScreen">
+
+    <TextView
+        android:text="@string/welcome_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/textView"/>
+
+    <View
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/circle"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/splash_circle">
+
+    </View>
+
+
+</RelativeLayout>
